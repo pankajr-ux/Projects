@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en" <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Project_Monarch </title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<!-- font links here -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+<style>
+    .carousel-item {
+        width: 100%;
+        height: 500px;
+    }
+
+    .navbar-brand {
+        font-family: "Kanit", sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-size: xx-large;
+    }
+
+    .text-white {
+        font-family: "Kanit", sans-serif;
+        font-weight: 400;
+        text-transform: capitalize;
+        letter-spacing: 2.5px;
+        /* font-size: large; */
+    }
+
+    .sb-footer {
+        color: rgb(255, 188, 3);
+        text-transform: capitalize;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        line-height: 0.5;
+        font-size: smaller;
+    }
+
+    @media screen and (min-width: 300px) {
+        .navbar-brand{
+            font-size: smaller;
+        }
+  .carousel-item {
+    height: 220px;
+  }
+}
+  @media screen and (min-width: 720px) {
+    .navbar-brand{
+            font-size: x-large;
+        }
+  .carousel-item {
+    height: 500px;
+  }
+}
+
+</style>
+</head>
+
+<body class="bg-black">
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Monarch !</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#information">Information</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#journey">Journey</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Legacy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Titans</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Secrets</a>
+                    </li>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End-->
+    <!-- Carousel Start -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://img.freepik.com/free-photo/tyrannosaurus-rex-wild_23-2151446359.jpg?t=st=1717354205~exp=1717357805~hmac=b3fa4f3e4de4e5d98eba942ae98b14b0dafd11db689dc4109f6b9d6b602b3072&w=826"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Tyrannosaurus</h5>
+                    <p>Tyrannosaurus is a genus of large theropod dinosaur, is one of the best represented theropods.
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://img.freepik.com/free-photo/looking-camera-vibrant-color-animal-markings-reptile-selective-focus-generated-by-artificial-intelligence_25030-61973.jpg?t=st=1717355827~exp=1717359427~hmac=4eec0cc876e686a39a7784f18464b3f75890c5a6d9c361619c3c137998cfcadd&w=826"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Eye Sockets</h5>
+                    <p>The eye socket of Tyrannosaurus rex played an important part in how the giant carnivores evolved
+                        some of the most powerful bites of all time.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://img.freepik.com/free-photo/dinosaur-tyrannosaurus-rex-forest-closeup_384344-5016.jpg?t=st=1717355020~exp=1717358620~hmac=e021042618caf06f7eab50b880bba887cc93ea7ca0e24e6c64bee6a84cf2f509&w=826"
+                    class="d-block w-100 " alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Speciality </h5>
+                    <p>The most ferocious predators to ever walk the Earth. With a massive body, sharp teeth, and jaws
+                        so powerful they could crush a car.</p>
+                </div>
+
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Carousel End -->
+    <!-- Information Area -->
+    <div class="information" id="information">
+        <h1 class="text-white text-center mt-4">Information</h1>
+    </div>
+    <!-- Information ends here -->
+    <!-- Card Creation Here -->
+    <div class="container">
+        <div class="row mb-2 mt-5">
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-warning ">Welcome</strong>
+                        <h3 class="mb-0 text-white">Godzilla</h3>
+                        <p class="card-text mb-auto text-white">This is a wider card with supporting text below as a
+                            natural
+                            lead-in to additional content.</p>
+                        <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                            Continue reading
+                        </a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="bd-placeholder-img" width="200" height="250"
+                            src="https://img.freepik.com/premium-photo/animal-monster_264411-7017.jpg?w=740"
+                            alt="dragon_image">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-warning ">Welcome</strong>
+                        <h3 class="mb-0 text-white">Gidorah</h3>
+                        <p class="card-text mb-auto text-white">This is a wider card with supporting text below as a
+                            natural
+                            lead-in to additional content.</p>
+                        <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                            Continue reading
+                        </a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="bd-placeholder-img" width="200" height="250"
+                            src="https://img.freepik.com/premium-photo/dragon-sunset_264411-1921.jpg?w=740"
+                            alt="dragon_image">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-warning ">Welcome</strong>
+                        <h3 class="mb-0 text-white">Griffin</h3>
+                        <p class="card-text mb-auto text-white">This is a wider card with supporting text below as a
+                            natural
+                            lead-in to additional content.</p>
+                        <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                            Continue reading
+                        </a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="bd-placeholder-img" width="200" height="250"
+                            src="https://img.freepik.com/premium-photo/warlike-phoenix_264411-230.jpg?w=740"
+                            alt="dragon_image">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-warning ">Welcome</strong>
+                        <h3 class="mb-0 text-white">Kong</h3>
+                        <p class="card-text mb-auto text-white">This is a wider card with supporting text below as a
+                            natural
+                            lead-in to additional content.</p>
+                        <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                            Continue reading
+                        </a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="bd-placeholder-img" width="200" height="250"
+                            src="https://img.freepik.com/premium-photo/godzilla-king-kong-mixed-together_973275-117280.jpg?w=360"
+                            alt="dragon_image">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-warning ">Welcome</strong>
+                        <h3 class="mb-0 text-white">Methuselah</h3>
+                        <p class="card-text mb-auto text-white">This is a wider card with supporting text below as a
+                            natural
+                            lead-in to additional content.</p>
+                        <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                            Continue reading
+                        </a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="bd-placeholder-img" width="200" height="250"
+                            src="https://img.freepik.com/free-photo/mountain-landscape-with-fantasy-style-scene_23-2151124849.jpg?t=st=1717363189~exp=1717366789~hmac=2cd152f2bb049c428c946baabdf40e3caceadfc4185240e71d9446da50e6dcc2&w=360"
+                            alt="dragon_image">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-warning ">Welcome</strong>
+                        <h3 class="mb-0 text-white">Godzilla</h3>
+                        <p class="card-text mb-auto text-white">This is a wider card with supporting text below as a
+                            natural
+                            lead-in to additional content.</p>
+                        <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                            Continue reading
+                        </a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="bd-placeholder-img" width="200" height="250"
+                            src="https://img.freepik.com/premium-photo/animal-monster_264411-7017.jpg?w=740"
+                            alt="dragon_image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Card Creation ends -->
+    <!-- Journey Start Here -->
+    <section class="journey">
+        <div id="container">
+            <h1 class="text-center mt-5 text-white " id="journey">Journey</h1>
+        </div>
+        <div class="p-4 p-md-5 mb-4 rounded bg-black  text-white">
+            <div class="col-lg-6 px-0">
+                <h1 class="display-4 ms-5 fw-bold fst-italic">India’s wildlife conservation journey has had great
+                    strides and many hurdles
+                </h1>
+                <p class="lead ms-5  text-warning">Multiple lines of text that form the lede, informing new readers
+                    quickly and
+                    efficiently about what’s most interesting in this post’s contents.</p>
+                <p class="lead mb-0 ms-5 "><a href="#" class=" text-white fw-bold">Continue reading...</a></p>
+            </div>
+        </div>
+    </section>
+    <!-- Journey Ends Here -->
+    <!-- Sarari Start Here -->
+    <section class="safari" id="safari"></section>
+    <!-- Safari Ends Here -->
+    <!-- Footer Start Here-->
+    <footer class="container py-5">
+        <div class="row">
+            <div class="col-12 col-md">
+                <p class="text-white "> Monarch !</p>
+                <small class="d-block mb-3  text-white">© 2017–2024</small>
+            </div>
+            <div class="col-6 col-md">
+                <h5 class="text-white">Features</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
+                    <li><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
+                    <li><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
+                    <li><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li>
+                    <li><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
+                    <li><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5 class="text-white">Resources</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
+                    <li><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
+                    <li><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
+                    <li><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5 class="text-white">Resources</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="link-secondary text-decoration-none" href="#">Business</a></li>
+                    <li><a class="link-secondary text-decoration-none" href="#">Education</a></li>
+                    <li><a class="link-secondary text-decoration-none" href="#">Government</a></li>
+                    <li><a class="link-secondary text-decoration-none" href="#">Gaming</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5 class="text-white" class="text-white">About</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+                    <li><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+                    <li><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+                    <li><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Ends Here -->
+    <!-- subfooter Start here -->
+    <section class="sb-footer">
+        <p>&copy; 2024 All Copyright Reserved, monarch LLC.</p>
+        <span>designed by PANKAJ RAJPOOT</span>
+    </section>
+    <!-- subfooter ends here -->
+    <!-- JavaScript Part Here -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
